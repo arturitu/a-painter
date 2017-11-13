@@ -21,6 +21,10 @@ window.addEventListener('load', function (event) {
     progressBar.style.width = Math.floor(event.detail.progress * 100) + '%';
   });
 
+  let Clipboard;
+  if (typeof window !== 'undefined') {
+    Clipboard = require('clipboard');
+  }
   var clipboard = new Clipboard('.button.copy');
   clipboard.on('error', function (e) {
     console.error('Error copying to clipboard:', e.action, e.trigger);

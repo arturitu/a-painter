@@ -1,5 +1,7 @@
 window.saveAs = require('../vendor/saveas.js').saveAs;
 
+require('aframe-input-mapping-component');
+require('aframe-tooltip-component');
 require('aframe-xr');
 
 require('./dragndrop.js');
@@ -13,7 +15,6 @@ require('./systems/brush.js');
 require('./systems/ui.js');
 require('./systems/painter.js');
 
-require('./components/ar.js');
 require('./components/ar-paint-controls.js');
 require('./components/ar-ui.js');
 require('./components/ar-ui-modal-material.js');

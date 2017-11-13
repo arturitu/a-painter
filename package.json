@@ -22,7 +22,9 @@
     "webpack-dev-server": "^1.16.1"
   },
   "dependencies": {
+    "aframe-input-mapping-component": "0.1.1",
     "aframe-tooltip-component": "^0.1.0",
-    "aframe-xr": "0.0.3"
+    "aframe-xr": "0.0.3",
+    "clipboard": "1.7.1"
   }
 }
